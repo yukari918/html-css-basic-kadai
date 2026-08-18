@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+}
+
+#parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contents {
+  border: 3px solid rgb(238, 204, 204);
+  flex-basis: 25%;
+  padding: 10px 15px;
+  margin: 20px 0;
+  text-align: center;
+}
